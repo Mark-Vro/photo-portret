@@ -1,0 +1,26 @@
+baseURL = 'https://localhost:1313/'
+locale = 'ru-ru'
+title = 'Мое портфолио'
+theme = 'gallery'
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 90
+  
+
+  
+[menu]
+  [[menu.main]]
+    name = 'Обо мне'
+    pageRef = '/about'
+    weight = 10
+	
+[params]
+defaultTheme = "dark"
+  
+	[params.socialIcons]
+	email = "mailto:ваш-адрес@example.com"
+	github = "https://github.com/ваш-аккаунт"
+    instagram = "https://www.instagram.com/ваш-аккаунт"
+    youtube = "https://www.youtube.com/@ваш-канал"
+    linkedin = "https://linkedin.com/in/ваш-аккаунт"
